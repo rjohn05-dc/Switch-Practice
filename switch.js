@@ -109,7 +109,7 @@ switch(size){
 }
 
 // Nested If-Else 6
-
+let browser="Chrome"
 switch(browser){
     case Chrome:
         console.log("Fast and Popular")
@@ -128,3 +128,51 @@ switch(browser){
 }
 
 //  Nested If-Else 7
+ let temperature=25
+
+switch(temperature){
+    case temperature<0:
+        console.log("Freezing")
+        break;
+    case temperature<10:
+        console.log("Very Cold")
+        break;
+    case temparature<20:
+        console.log("Cold")
+        break;
+    case temperature<30:
+        console.log("Warm")
+        break;
+    default:
+        console.log("Hot")
+}
+
+// Nested If-Else 8
+
+let fruit =apple
+
+switch(fruit){
+    case apple:
+        console.log("Apple a day keeps the doctor away")
+        break;
+    case banana:
+        console.log("Rich in Pottasium")
+        break;
+    case orange:
+        console.log("Good source of vitamin C")
+        break;
+    case grape:
+        console.log("Sweet and Juicy")
+        break;
+    default:
+        console.log("unknown Fruit")
+}
+
+// Nested If-Else 9
+let subscription="premium"
+
+switch(subscription){
+    case basic:
+        console.log("Access to limited content")
+        break;
+}
