@@ -4,16 +4,16 @@
 let weather="rainy"
 
 switch(weather){
-    case sunny:
+    case 'sunny':
         console.log("Wear sunglasses")
         break;
-    case rainy:
+    case 'rainy':
         console.log("Take an umbrella")
         break;
-    case cloudy:
+    case 'cloudy':
         console.log("Might need a light jacket")
         break;
-    case snowy:
+    case 'snowy':
         console.log("Wear a coat and gloves")
         break;
     default:
@@ -54,13 +54,13 @@ switch(day){
 let trafficLight="green"
 
 switch(trafficLight){
-    case red:
+    case 'red':
         console.log("Stop")
         break;
-    case yellow:
+    case 'yellow':
         console.log("Slow Down")
         break;
-    case green:
+    case 'green':
         console.log("Go")
         break;
     default:
@@ -92,16 +92,16 @@ switch(score){
 let size="L"
 
 switch(size){
-    case S:
+    case 'S':
         console.log("Small")
         break;
-    case M:
+    case 'M':
         console.log("Medium")
         break;
-    case L:
+    case 'L':
         console.log("Large")
         break;
-    case XL:
+    case 'XL':
         console.log("Extra Large")
         break;
     default:
@@ -111,16 +111,16 @@ switch(size){
 // Nested If-Else 6
 let browser="Chrome"
 switch(browser){
-    case Chrome:
+    case 'Chrome':
         console.log("Fast and Popular")
         break;
-    case FireFox:
+    case 'FireFox':
         console.log("Privacy-focused")
         break;
-    case Safari:
+    case 'Safari':
         console.log("Best for Apple devices")
         break;
-    case Edge:
+    case 'Edge':
         console.log("Windows default bowser")
         break;
     default:
@@ -137,7 +137,7 @@ switch(temperature){
     case temperature<10:
         console.log("Very Cold")
         break;
-    case temparature<20:
+    case temperature<20:
         console.log("Cold")
         break;
     case temperature<30:
@@ -149,19 +149,19 @@ switch(temperature){
 
 // Nested If-Else 8
 
-let fruit =apple
+let fruit ="apple"
 
 switch(fruit){
-    case apple:
+    case 'apple':
         console.log("Apple a day keeps the doctor away")
         break;
-    case banana:
+    case 'banana':
         console.log("Rich in Pottasium")
         break;
-    case orange:
+    case 'orange':
         console.log("Good source of vitamin C")
         break;
-    case grape:
+    case 'grape':
         console.log("Sweet and Juicy")
         break;
     default:
@@ -172,7 +172,36 @@ switch(fruit){
 let subscription="premium"
 
 switch(subscription){
-    case basic:
+    case 'basic':
         console.log("Access to limited content")
         break;
+    case 'standard':
+        console.log("Access to most content")
+        break;
+    case 'premium':
+        console.log("Access to all content")
+        break;
+    default:
+        console.log("Invalid subscription type")
+}
+
+// Nested IF-Else 10
+
+let paymentMethod="creditcard"
+
+switch(paymentMethod){
+    case 'creditcard' :
+        console.log("Processing with credit card")
+        break;
+    case 'debitcard':
+        console.log("Processing with debit card")
+        break;
+    case 'paypal':
+        console.log("Processing with paypal")
+        break;
+    case 'cash':
+        console.log("Pay with cash")
+        break;
+    default:
+        console.log("Invalid payment method")
 }
